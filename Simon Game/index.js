@@ -11,10 +11,10 @@ function playGame() {
         $('#' + color[c]).addClass('pressed');
         var audio = new Audio('./sounds/' + color[c] + '.mp3');
         audio.play();
-    }, 400);
+    }, 500);
     setTimeout(() => {
         $('#' + color[c]).removeClass('pressed');
-    }, 500);
+    }, 700);
     i = 0;
 }
 
