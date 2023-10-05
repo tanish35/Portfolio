@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.apple {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  width: 10rem;
+  height: 3rem;
+}
+
+.pogi {
+  position: relative;
+  left: 45vw;
+}
+
+.news {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.news img {
+  height: 2rem;
+}
+
+@media screen and (max-width:600px) {
+  .news img {
+    height: 1rem;
+  }
+}
+
+.pogi p {
+  font-size: larger;
+  position: relative;
+  top: 1rem;
+  right: 0.8rem;
+}
+
+.test {
+  display: flex;
+  justify-content: center;
+}
+
+.align1 {
+  max-width: 85vw;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 7rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#testimonial {
+  background-color: #F8F9FA;
+  padding-bottom: 7rem;
+  padding-top: 7rem;
+}
+
+.fill {
+  margin: 0 !important;
+}
+
+.text-black {
+  background-color: #212529;
+}
+
+.text-black h4 {
+  color: white;
+}
+
+.link-secondary {
+  color: #212529 !important;
+}

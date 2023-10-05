@@ -1,0 +1,85 @@
+.aesthetic {
+    background-image: url(https://images.pexels.com/photos/1480690/pexels-photo-1480690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: contain;
+}
+
+.navbar-brand {
+    margin-right: 60px;
+    font-size: 2rem;
+    font-family: 'Trickster';
+}
+
+.nav-item {
+    margin-right: 60px;
+    font-size: 1.5rem;
+}
+
+.image-button {
+    background-image: url(Hand-drawn-Moon-phases-infographic-on-transparent-background-PNG.png);
+    background-size: 100% 100%;
+    /* Adjust as needed (e.g., cover, contain, etc.) */
+    background-position: center center;
+    padding: 2em 2em;
+    /* Adjust padding to make the button larger */
+    cursor: pointer;
+
+}
+
+@font-face {
+    font-family: 'Trickster';
+    src: url(Jokerman-Regular.woff2);
+}
+
+.flex-static {
+    height: 60vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.flex-static img {
+    position: absolute;
+    right: 0;
+    max-width: 50vw;
+}
+
+.flex-static h1 {
+    font-family: 'Pacifico';
+    max-width: 50vw;
+}
+
+.social-media {
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    width: auto;
+}
+
+.instagram {
+    background-image: url(insta.png);
+    padding: 2em 2em;
+    background-size: contain;
+    margin-right: 50px;
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
+    padding: 2em 2em;
+    background-size: contain;
+    margin-right: 50px;
+}
+
+.git {
+    background-image: url(git.png);
+    padding: 2em 2em;
+    background-size: contain;
+    margin-right: 50px;
+}
+
+.aesbut {
+    margin-right: 35px;
+}
+
+.aesocial {
+    background-color: #161616;
+}
