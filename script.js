@@ -44,12 +44,8 @@ function themeChanger() {
     if (theme == 'dark') {
         const navbar = document.getElementById("navbar");
         const flexContainer = document.getElementById("flexContainer");
-        const htmlElement = document.documentElement;
         const social = document.getElementById("social");
         html.setAttribute('data-bs-theme', 'light')
-        navbar.classList.remove("aesthetic");
-        flexContainer.classList.remove("aesthetic");
-        htmlElement.classList.remove("aesthetic");
         social.classList.remove("aesocial");
 
     }
@@ -66,21 +62,4 @@ function linkedin() {
 }
 function git() {
     window.open("https://github.com/tanish35", "_blank");
-}
-
-function toggleAesthetic() {
-    // Set data-bs-theme to "dark"
-    document.documentElement.setAttribute("data-bs-theme", "dark");
-
-    // Toggle aesthetic class on the specified elements
-    const navbar = document.getElementById("navbar");
-    const flexContainer = document.getElementById("flexContainer");
-    const htmlElement = document.documentElement;
-    const social = document.getElementById("social");
-
-    navbar.classList.toggle("aesthetic");
-    social.classList.toggle("aesocial");
-    flexContainer.classList.toggle("aesthetic");
-    htmlElement.classList.toggle("aesthetic");
-
 }
