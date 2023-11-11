@@ -55,7 +55,7 @@ function themeChanger() {
 }
 
 function insta() {
-    window.open("https://www.instagram.com/tanishm._29/", "_blank");
+    window.open("https://www.instagram.com/tanishm._.29/", "_blank");
 }
 function linkedin() {
     window.open("https://www.linkedin.com/in/tanish34/", "_blank");
