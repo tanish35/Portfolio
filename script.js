@@ -55,11 +55,11 @@ function themeChanger() {
 }
 
 function insta() {
-    window.open("https://www.instagram.com/somnath_chattaraj_910/", "_blank");
+    window.open("https://www.instagram.com/tanishm._.29/", "_blank");
 }
 function linkedin() {
-    // window.open("https://www.linkedin.com/in/tanish34/", "_blank");
+    window.open("https://www.linkedin.com/in/tanish34/", "_blank");
 }
 function git() {
-    window.open("https://github.com/Somnath-Web-Developer", "_blank");
+    window.open("https://github.com/tanish35", "_blank");
 }
